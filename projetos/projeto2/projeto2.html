@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <style>
+    * {
+      padding: 0%;
+      margin: 0%;
+    }
+
+    #btnpg1:hover {
+      background-color: brown;
+      color: white !important;
+      opacity: 1 !important;
+
+    }
+
+    #apg1 {
+      color: aliceblue !important;
+    }
+
+    /* Sets a uniform height and handles the cropping behavior */
+    .carousel-img {
+      height: 500px;
+      object-fit: cover;
+      object-position: center;
+      /* Keeps the middle of the image focused */
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <!--Pagina0-->
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://play-lh.googleusercontent.com/skjKr6oCvE0DQ7xa0tpJQoyXhQU5qJqbzjnIlsg1hkSYbNySUxbhYwHWiGM1H4q9hBA_Q8bkBlMtGWvZkc_O"
+            alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          Pizzaria Hut
+
+
+        </a>
+        <ul class="nav justify-content-end"
+          style="background-color: #bb3737;min-height: 20px; border: 1px solid rgb(155, 27, 18);">
+          <li class="nav-item">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#pagina1" style="color: black;"> Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pagina2" style=color:black>Cardapio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pagina3" style=color:black>Entre em contato</a>
+          </li>
+        </ul>
+        </li>
+
+
+
+
+
+  </header>
+
+  <main>
+    <!--Pagina1-->
+    <section style="min-height: 40vh; ;background-color:brown;
+            background-size: cover;background-position: center;background-repeat: no-repeat;
+            display: flex;flex-direction: column;align-items:center;justify-content: center;">
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGy3l6xavtpPNYGxsgRoTN1F_DAIp7TZhdSkK3GI1AVLQVZXAnUifjZqqz&s=10"
+                class="d-block w-100 object-fit-cover" height="600px" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://marcaspelomundo.com.br/wp-content/uploads/2024/07/Pizza-Hut-e-Nutella-anunciam-collab-inedita-1.jpg"
+                class="d-block w-100 object-fit-cover" height="600px" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://creativosbr.com.br/wp-content/uploads/2025/03/image-10.png" height="600px"
+                class="d-block w-100 object-fit-cover" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+
+      <a href="#pagina1">
+        <button id="btnp" style="opacity: 0.8;background-color: black;color:#87adff; justify-content: center;"></button>
+
+
+      </a>
+
+    </section>
+    <!--Pagina2-->
+    <section id="pagina2" style="min-height: 90vh;background-color:brown;display: flex;flex-wrap: wrap;">
+      <div class="container-fluid">
+        <div class="row" style="min-height: 90vh;">
+
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 17rem;min-height:19vh ;">
+              <img src="https://divirtasecuritiba.com/wp-content/uploads/2022/06/handler.php-3-2.jpeg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">My
+                  Box</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                  Pizza Individual (15cm a 17cm - 4 fatias) com um acompanhamento de sua preferência, entrada ou
+                  sobremesa, e bebida
+
+                </p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+
+            <div class="card" style="width: 18rem;min-height: 20vh;">
+              <img src="https://swiftbr.vteximg.com.br/arquivos/618283-PIZZA-ARTESANAL-DE-CALABRESA-SWIFT_3.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Calabresa</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">Calabresa fatiada,
+                  cebola, azeitonas, mussarela e o Molho Especial Pizza Hut. Deliciosa!
+                </p>
+                <br>
+
+
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;min-height: 20vh;">
+              <img src="https://media-cdn.tripadvisor.com/media/photo-p/11/63/8f/ed/dobro.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Supreme</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">Pepperoni, carne,
+                  mussarela, cebola, pimentão, champignon e Molho Especial Pizza Hut. Suprema!
+                </p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+            <div class="card" style="width:17rem;min-height: 19vh;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-8uXwVedDD3gCrY5UXzAc_FPnFBAa3v2h0kMthALzDSgLCtM28Cj6Eq2X&s=10"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Hut Box</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">Duas pizzas médias (28cm
+                  a 30cm - 8 fatias), mais dois acompanhamentos de sua preferência, salgados ou doces.</p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+
+
+            <div class="card" style="width: 18rem;min-height: 20vh;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdi6N_L9o4Ybfk5S8Um0u_tjs7QpSCkQ1gyJPedqmswtt5BwF0KrwIOZk&s=10"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Quatro queijos</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">Uma fusão de Provolone,
+                  parmesão, mussarela, cream cheese e Molho Especial Pizza Hut.</p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col d-flex justify-content-center align-items-center">
+            <div class="card" style="width: 15rem;min-height: 18vh;">
+              <img src="https://contents.hanzo.com.br/provider/1798/c840/c840b4b9-81b5-4aea-82ed-e046f58595da.webp"
+                alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Hut Cup Brigadeiro</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">Copinho de brigadeiro
+                  Moça® cremoso polvilhado com granulado
+                </p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+            <div class="card" style="width:17rem;min-height: 13vh;">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTahhSBqGO0NyORku8zDTzuirbt_aS_wM2XTJFBh1Eng&s"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Breadsticks Nutella</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">4 unidades de sticks de
+                  massa pan assados com copinho de Nutella®
+                </p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+            <div class="card" style="width: 14rem;min-height: 15vh;">
+              <img src="https://www.receitasja.com.br/wp-content/uploads/2025/06/Petit-gateau-com-sorvete-500x375.jpg"
+                class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Petit gateau</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                  Bolo quentinho com recheio cremoso de chocolate, uma sobremesa irresistível!
+                </p>
+                <a href="#" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+            <div class="card" style="width: 18rem;min-height: 16vh;">
+              <img src="https://obrigadeiro.com.br/wp-content/uploads/2019/06/IMG_4086.jpg" class="card-img-top"
+                alt="...">
+              <div class="card-body">
+                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;" class="card-title">
+                  Brownie de Doce de Leite</h5>
+                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                  Brownie macio e delicioso, com um irresistível recheio de doce de leite!
+                </p>
+                <a href="#pagina2" class="btn btn-primary">Peça Aqui</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+
+      <!-- Coluna Direita-->
+
+
+      </li>
+
+
+      </ul>
+
+
+      </div>
+      </div>
+      </div>
+
+
+
+    </section>
+
+
+    </section>
+    <!--Pagina3-->
+    <section id="pagina3" style="min-height:100vh;background-image: linear-gradient(to right top,brown); 
+        " class="d-flex justify-content align-items-center flex-column">
+
+      <div
+        style="background-color: brown; height: 50vh;width: 100vw;display: flex;justify-items: center;text-align: center;">
+        <div style="height: 100%;width: 50%;">
+
+          <form style="width: 80%;">
+          <br>
+          <br>
+
+            <div class="container-fluid">
+
+              <div class="mb-3"
+                style="background-color: rgba(228, 103, 103, 0.61); margin-top:20px;font-family: Verdana, Geneva, Tahoma, sans-serif;color: aliceblue;">
+                <p>ENTRE EM CONTATO CONOSCO</p>
+              </div>
+
+              <label for="exampleInputEmail1" class="form-label">Digite seu Email:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+              <div id="emailHelp" class="form-text"></div>
+            </div>
+
+            <div class="mb-3" style="margin-left: 10px;">
+              <label for="exampleInputPassword1" class="form-label">Digite sua senha:</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check" style="margin-left: 10px;">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1"></label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+
+        <!-- SEU MAPS AQUI-->
+        <div style="height: 100%;width: 50%;display: flex;justify-items: center;margin-top: 40px;">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.103025805253!2d-47.56263172470385!3d-22.425147779597022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c7db5d1b960659%3A0x5dd7d43ced182153!2sPizza%20Hut!5e0!3m2!1spt-BR!2sbr!4v1788272823473!5m2!1spt-BR!2sbr"
+            width="700" height="500" style="border: 30px;;" allowfullscreen="" loading="lazy"
+            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+
+      </div>
+
+      </div>
+
+
+
+
+
+
+
+      <img src="./Screenshots/Captura de tela 2026-09-01 084949.png" class="rounded mx-auto d-block" alt="..."
+        style="display: flex;justify-items: center;margin-top: 230px;">
+
+
+    </section>
+
+  </main>
+
+  <footer div class=" mt-auto d-flex align-items-center justify-content-center"
+    style="min-height: 30vh;background-color:#fcfdff;">
+
+
+
+    <img src="./Screenshots/Captura de tela 2026-09-01 090655.png" class="rounded mx-auto d-block" alt="..."
+      width="100%" height="50%">
+  </footer>
+
+
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
