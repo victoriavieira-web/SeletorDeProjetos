@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+        }
+
+        #btnpg1:hover {
+            background-color: brown;
+            color: white !important;
+            opacity: 1 !important;
+
+        }
+
+        #apg1 {
+            color: aliceblue !important;
+        }
+
+        /* Sets a uniform height and handles the cropping behavior */
+        .carousel-img {
+            height: 500px;
+            object-fit: cover;
+            object-position: center;
+            /* Keeps the middle of the image focused */
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <!--Pagina0-->
+        <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#pagina1">
+                    <img src="./Captura de tela 2026-09-03 083142.png" alt="Logo" width="40" height="20"
+                        class="d-inline-block align-text-top" >
+                    MedSync
+
+
+                </a>
+                <ul class="nav justify-content-end"
+                    style="background-color: #f8f9fa;min-height: 20px; border: 1px solid rgb(250, 250, 250)">
+                    <li class="nav-item">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#pagina1" style="color: black;"> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina2" style=color:black>Destaques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina3" style=color:black>Remédio & Catálogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina3" style=color:black>Nossa História</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pagina3" style=color:black>Contato</a>
+                    </li>
+                </ul>
+                </li>
+
+                
+
+
+
+
+
+    </header>
+
+    <main>
+        <!--Pagina1-->
+        <section style="min-height: 40vh; ;background: #2A7B9B;
+        background-size: cover;background-position: center;background-repeat: no-repeat;
+        display: flex;flex-direction: column;align-items:center;justify-content: center;">
+
+            <a href="#pagina1">
+                <button id="btnp"
+                    style="opacity: 0.8;background-color: black;color:#87adff; justify-content: center;"></button>
+            </a>
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Captura de tela 2026-09-03 090501.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MedSync</h5>
+        <p>Saúde em perfeita sintonia</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Captura de tela 2026-09-03 090645.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MedSync</h5>
+        <p>Saúde em perfeita sintonia</p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="./Captura de tela 2026-09-03 090925.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MedSync</h5>
+        <p>Saúde em perfeita sintonia</p>
+      </div>
+    </div>
+     <div class="carousel-item">
+      <img src="./Captura de tela 2026-09-03 091055.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MedSync</h5>
+        <p>Saúde em perfeita sintonia</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./Captura de tela 2026-09-03 090331.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>MedSync</h5>
+        <p>Saúde em perfeita sintonia</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+           
+
+
+
+        </section>
+        <!--Pagina2-->
+        <section id="pagina2" style="min-height: 90vh;background-color:#439ec2;display: flex;flex-wrap: wrap;">
+            <div class="container-fluid">
+                <div class="row" style="min-height: 90vh;display: flex;"> <!--- Alinhar as divs-->
+                    
+                    <div>
+
+                        <div style="background-color: #2a7b9b93;min-height: 70px;">
+                        </div>
+
+
+                          <div style="background-color: #f8f9fa;min-height: 30%; width: 20%;justify-content:
+                        center;align-items:center;display: flex; direction:row 15px;">
+                        </div>
+
+                        
+
+
+                        <div style="background-color: #2a7b9b93;min-height: 70px;text-align: center;">
+                            <h3>Destaques da MedSync 
+                            </h3>
+                            <h5>Confira alguns medicamentos mais procurados em nossas lojas</h5>
+                    </div>
+
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div class="card" style="width: 15rem;min-height:10vh;">
+                            <img src="https://drogariaspacheco.vteximg.com.br/arquivos/ids/2539584-1000-1000/73245---dipirona-sodica-500mg-generico-medley-30-comprimidos-1.jpg?v=639205300662930000"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
+                                    class="card-title">
+                                <h5>Dipirona Monoidrata 500mg</h5>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                                   
+                                    
+
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: 15rem;min-height: 10vh;">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUuBnninbmU9BLu3Pd10t5dA2qmy_Ak9eizNYQkaqGw&s=10"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
+                                    class="card-title">
+                                <h5>Paracetamol 750mg</h5>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                                </p>
+                                <br>
+
+
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: 15rem;min-height: 10vh;">
+                            <img src="https://dmvfarma.vtexassets.com/arquivos/ids/230473-800-auto?v=638303081019500000&width=800&height=auto&aspect=true"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"
+                                    class="card-title">
+                                <h5>Supreme Vitamina C + Zinco</h5>
+                                <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;" class="card-text">
+                                    
+                                    
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="background-color: #2a7b9b93;min-height: 70px;">
+                        </div>
+                </div>
+                </div>
+
+                
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+
+            <!-- Coluna Direita-->
+
+
+            </li>
+
+
+            </ul>
+
+
+            </div>
+            </div>
+            </div>
+
+
+
+        </section>
+
+
+        </section>
+        <!--Pagina3-->
+        <section id="pagina3" style="min-height:100vh;background-image: linear-gradient(to right top,brown); 
+        " class="d-flex justify-content align-items-center flex-column">
+
+            <div
+                style="background-color:#2A7B9B; height: 50vh;width: 100vw;display: flex;justify-items: center;text-align: center;">
+                <div style="height: 100%;width: 40%;">
+
+                    <form style="width: 80%;">
+            </div>
+
+            </div>
+
+
+
+
+
+
+
+            <img src="./Captura de tela 2026-09-01 084949.png" class="rounded mx-auto d-block" alt="..."
+                style="display: flex;justify-items: center;margin-top: 230px;">
+
+
+        </section>
+
+    </main>
+
+    <footer div class=" mt-auto d-flex align-items-center justify-content-center"
+        style="min-height: 30vh;background-color:#fcfdff;">
+
+
+
+        <img src="./Captura de tela 2026-09-01 090655.png" class="rounded mx-auto d-block" alt="..." width="100%"
+            height="50%">
+    </footer>
+
+
+
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
